@@ -1,6 +1,6 @@
 # RIPCourse
 
-This is repository for to pass my university labs.
+This is repository to pass my university labs.
 
 * [Lab 1](https://github.com/Lin69/RIPCourse/tree/master/Lab%201)
 * [Lab 2](https://github.com/Lin69/RIPCourse/tree/master/Lab%202)
