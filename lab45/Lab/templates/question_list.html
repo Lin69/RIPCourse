@@ -1,0 +1,11 @@
+{% extends 'head.html' %}
+
+{% load static %}
+
+{% block content %}
+  <div class="question-list">
+    {% for q in object_list %}
+        {% include 'question_card.html' %}
+    {% endfor %}
+  </div>
+{% endblock content %}

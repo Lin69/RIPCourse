@@ -1,0 +1,8 @@
+<div class="card question-card">
+{#  <img class="card-img-top" src=".../100px180/" alt="Card image cap">#}
+  <div class="card-body">
+    <h5 class="card-title">{{ q.question_text }}</h5>
+    <p class="card-text">{{ q.pub_date }}</p>
+    <a href="{% url 'question' q.pk %}" class="btn btn-primary">Go to pool</a>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+{% extends 'head.html' %}
+
+{% block content %}
+<div class="jumbotron mt-3">
+    <h1>{{ object.question_text }}</h1>
+    <p class="lead">{{ object.pub_date }}</p>
+    {% for choice in object.choice_set.all %}
+      <div>
+        <div class="question-column">{{ choice.choice_text }}</div>
+        <div class="question-column">Votes: {{ choice.votes }}</div>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock content %}

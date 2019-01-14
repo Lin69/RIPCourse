@@ -1,0 +1,17 @@
+.main {
+    margin-top: 56px;
+    padding: 40px 100px;
+}
+
+.question-list {
+    display: flex;
+}
+
+.question-card {
+    margin: 30px;
+}
+
+.question-column {
+    display: inline-block;
+    width: 30%;
+}
