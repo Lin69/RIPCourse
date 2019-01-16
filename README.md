@@ -10,3 +10,4 @@ This is repository to pass my university labs.
 * [Lab 6](https://github.com/Lin69/RIPCourse/tree/master/lab6)
 
 Thank you for you attention. Hope to get Excellent on exam =)
+(UPD Got it =D)
